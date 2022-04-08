@@ -124,11 +124,10 @@ setup(name='stable_baselines',
           'stable_baselines': ['py.typed', 'version.txt'],
       },
       install_requires=[
-          'gym[atari,classic_control]>=0.11',
           'scipy',
           'joblib',
           'cloudpickle>=0.5.5',
-          'opencv-python',
+          'opencv-python==4.1.1.26',
           'numpy',
           'pandas',
           'matplotlib'
